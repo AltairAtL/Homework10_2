@@ -1,0 +1,158 @@
+* {
+  transition: all 0.1s ease-in;
+}
+.first_p {
+  margin: 98px auto 10px;
+  width: 287px;
+  height: 41px;
+  left: 658px;
+  top: 98px;
+
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 41px;
+  /* identical to box height */
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #3c3c3c;
+}
+.hr {
+  width: 45px;
+  height: 4px;
+  left: 780px;
+  top: 149px;
+
+  background: #dddbdb;
+}
+.second_p {
+  margin: 30px auto 84px;
+  width: 560px;
+  height: 38px;
+  left: 521px;
+  top: 183px;
+
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #3c3c3c;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+/* .box-1:hover {
+  margin: 85px 17px 10px 17px;
+  width: 269px;
+  height: 269px;
+  left: 218px;
+  top: 311px;
+
+  background: #00aed9;
+} */
+.box-1 {
+  display: flex;
+  justify-content: center;
+  margin: 85px 17px 10px 17px;
+  border: 1px solid #3c3c3c;
+  width: 281px;
+  height: 280px;
+  left: 511px;
+  top: 306px;
+  background: #00aed9;
+}
+.box-2 {
+  margin: 85px 17px 10px 17px;
+  border: 1px solid #3c3c3c;
+  width: 281px;
+  height: 280px;
+  left: 511px;
+  top: 306px;
+  background: url("img/photo.png") no-repeat center;
+}
+.box-3 {
+  margin: 85px 17px 10px 17px;
+  border: 1px solid #3c3c3c;
+  width: 281px;
+  height: 280px;
+  left: 511px;
+  top: 306px;
+  background: url("img/photo1.png") no-repeat center;
+}
+.box-4 {
+  margin: 85px 17px 10px 17px;
+  border: 1px solid #3c3c3c;
+  width: 281px;
+  height: 280px;
+  left: 511px;
+  top: 306px;
+  background: url("img/photo2.png") no-repeat center;
+}
+.box-5 {
+  margin: 1px 17px 0px 17px;
+
+  width: 281px;
+  height: 280px;
+  left: 511px;
+  top: 306px;
+}
+.box_p_1 {
+  margin-bottom: 0px;
+  width: 115px;
+  height: 22px;
+  left: 218px;
+  top: 596px;
+
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #282528;
+}
+.box_p_2 {
+  margin-top: 0px;
+  width: 86px;
+  height: 17px;
+  left: 218px;
+  top: 618px;
+
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #646464;
+}
+.Twitter,
+.Facebook,
+.Google {
+  margin: 114px 4px 113px;
+  width: 42px;
+  height: 42px;
+  left: 285px;
+  top: 425px;
+}
+.Twitter {
+  background: rgba(255, 255, 255, 0.3) url("img/Twitter.png") no-repeat center;
+}
+.Facebook {
+  background: rgba(255, 255, 255, 0.3) url("img/Facebook.png") no-repeat center;
+}
+.Google {
+  background: rgba(255, 255, 255, 0.3) url("img/Google.png") no-repeat center;
+}
+.box-2:hover {
+  background: #00aed9;
+}
