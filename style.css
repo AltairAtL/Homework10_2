@@ -13,7 +13,6 @@
   font-weight: bold;
   font-size: 33px;
   line-height: 41px;
-  /* identical to box height */
 
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -57,7 +56,7 @@
 
   background: #00aed9;
 } */
-.box-1 {
+/* .box-1 {
   display: flex;
   justify-content: center;
   margin: 85px 17px 10px 17px;
@@ -67,8 +66,22 @@
   left: 511px;
   top: 306px;
   background: #00aed9;
+} */
+
+.box-1 {
+  display: flex;
+  justify-content: center;
+  margin: 85px 17px 10px 17px;
+  border: 1px solid #3c3c3c;
+  width: 281px;
+  height: 280px;
+  left: 511px;
+  top: 306px;
+  background: url("img/photo.png") no-repeat center;
 }
 .box-2 {
+  display: flex;
+  justify-content: center;
   margin: 85px 17px 10px 17px;
   border: 1px solid #3c3c3c;
   width: 281px;
@@ -78,6 +91,8 @@
   background: url("img/photo.png") no-repeat center;
 }
 .box-3 {
+  display: flex;
+  justify-content: center;
   margin: 85px 17px 10px 17px;
   border: 1px solid #3c3c3c;
   width: 281px;
@@ -87,6 +102,8 @@
   background: url("img/photo1.png") no-repeat center;
 }
 .box-4 {
+  display: flex;
+  justify-content: center;
   margin: 85px 17px 10px 17px;
   border: 1px solid #3c3c3c;
   width: 281px;
@@ -115,7 +132,6 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
 
   color: #282528;
 }
@@ -131,7 +147,6 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
 
   color: #646464;
 }
@@ -153,6 +168,51 @@
 .Google {
   background: rgba(255, 255, 255, 0.3) url("img/Google.png") no-repeat center;
 }
+
+.box-1 .Twitter,
+.Facebook,
+.Google {
+  opacity: 0;
+}
+.box-2 .Twitter,
+.Facebook,
+.Google {
+  opacity: 0;
+}
+.box-3 .Twitter,
+.Facebook,
+.Google {
+  opacity: 0;
+}
+.box-4 .Twitter,
+.Facebook,
+.Google {
+  opacity: 0;
+}
+.box-2:hover .Twitter,
+.box-2:hover .Facebook,
+.box-2:hover .Google,
+.box-3:hover .Twitter,
+.box-3:hover .Facebook,
+.box-3:hover .Google,
+.box-4:hover .Twitter,
+.box-4:hover .Facebook,
+.box-4:hover .Google,
+.box-1:hover .Twitter,
+.box-1:hover .Facebook,
+.box-1:hover .Google {
+  opacity: 1;
+}
+.box-1:hover {
+  background: #00aed9;
+}
+
 .box-2:hover {
+  background: #00aed9;
+}
+.box-3:hover {
+  background: #00aed9;
+}
+.box-4:hover {
   background: #00aed9;
 }
